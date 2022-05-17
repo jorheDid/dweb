@@ -1,0 +1,299 @@
+*{
+	box-sizing: border-box;
+	font-family:Verdana, sans-serif;
+}
+
+.flex-contenedor{
+	color: rgba(10, 57, 41, 0.672);
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*--------------------------------------*/
+
+
+.menu{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.menu-items{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.item-list{
+	color: white;
+	list-style: none;
+	margin-left: 8px;
+	padding: 5px;
+	background-color: rgba(17, 137, 69, 0.678);
+	border-radius: 5px;
+}
+
+.item-list a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+
+.item-list:hover{
+	background-color: green;
+}
+
+.item-list .inicio{
+	padding: 0 15px;
+	color:black;
+}
+
+/*------------------------------------------*/
+
+.header{
+	color: white;
+	background-color: rgba(27, 164, 128, 0.789);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	border-radius: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+.alinear{
+	float: left;
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+.icr{
+	float: right;
+}
+/*------------------------------------------*/
+
+.flex-cursos{
+	color: white;
+	padding: 25px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.categoria{
+	color: black;
+	display: flex;
+	border: solid 2px green;
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+.bx{
+	font-size: 100px;
+	color: white;
+}
+
+.descripcion{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding: 10px;
+}
+
+.descripcion span{
+	font-size: 20px;
+}
+
+.descripcion a{
+	text-align: center;
+	margin-top: 15px;
+	text-decoration: none;
+	color:white;
+	padding: 7px;
+	background-color: green;
+	border-radius: 5px;
+}
+
+.descripcion a:hover{
+	background-color: green;
+	color: #fff;
+}
+
+/*------------------------------------------*/
+.footer{
+	text-align: center;
+	font-size: 14px;
+	background: rgba(53, 91, 53, 0.526);
+}
+/*------------------------------------------*/
+
+.card{
+	max-width: 33%;
+	padding: 10px;
+	border: solid 1px green;
+	border-radius: 5px;
+	position: relative;
+}
+
+.img{
+	width: 100%;
+}
+
+.img2{
+	padding: 2px 2px 2px 2px;
+	justify-content: center;
+}
+
+.informacion{
+	padding: 10px;
+}
+
+.titulo{
+	position: absolute;
+	top: 200px;
+	background-color: greenyellow;
+	color: black;
+	font-size: 20px;
+	padding: 8px;
+}
+
+.resumen{
+	color: gray;
+	font-size: small;
+}
+
+.boton{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 25px;
+	background-color: green;
+	margin-left: 10px;
+	color: white;
+}
+
+.boton:hover{
+	background-color: greenyellow;
+	color: #fff;
+}
+
+/*-------------------------------------------*/
+
+.detalles{
+	display: flex;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.imagen{
+	width: 500px;
+	border: solid black;
+}
+
+.decrip_curso{
+	padding: 20px;
+}
+
+.title{
+	color: green;
+	text-decoration: underline;
+}
+
+/*-----------------------------------------*/
+
+.flex-video{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	border: solid rgb(35, 206, 35);
+	display: flex;
+	font-style: black;
+}
+
+/*-----------------------------------------*/
+
+.social{
+	display: flex;
+}
+
+.formulario{
+	max-width: 50%;
+	padding: 25px 40px;
+	border: solid green;
+}
+.compra{
+	max-width: 50%;
+	padding: 25px 40px;
+	border: solid green;
+	text-shadow: black;
+}
+
+.input{
+	width: 100%;
+	padding: 8px 16px;
+	outline: none;
+	border: 2px solid rgba(0,0,0,0);
+	background-color: rgba(230, 230, 230, 0.6);
+	font-size: 18px;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.input:hover{
+	background-color: rgba(0,0,0,0.1); 
+}
+
+.input:focus{
+	background-color: #fff;
+	border: 2px solid royalblue;
+}
+
+.area{
+	min-height: 150px;
+}
+
+.btn{
+	width: 300px;
+	padding: 8px 16px;
+	font-size: 18px;
+	background-color: greenyellow;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: black;
+	transition: 0.3s; 
+}
+
+.redes_sociales{
+	max-width: 50%;
+	padding: 25px 40px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.button_social{
+	padding: 8px 16px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+}
+
+.facebook:hover{
+	background-color: #4267b2;
+	color: #fff;
+}
+
+.twitter:hover{
+	background-color: #00bfff;
+	color: #fff;
+}
+
+.button_social .bx{
+	font-size: 25px;
+}
